@@ -1,0 +1,87 @@
+/* Профиль */
+.profile__container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.profile__avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.profile__info {
+  margin-bottom: 20px;
+}
+
+.profile__info-text {
+  font-style: italic;
+}
+
+.profile__info-text h4 {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+  .profile__info {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* Профиль card */
+.profile__card {
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.profile__card h2 {
+  margin-bottom: 10px;
+}
+
+.profile__hobby-white {
+  background: #fafafa;
+}
+
+.profile__experience-blue {
+  background: #e5f6ff;
+}
+
+.profile__red {
+  background: #ffded4;
+}
+
+.profile__list {
+  padding: 0 20px;
+}
+
+.profile__list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+.profile__link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.profile__link-list li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.profile__table {
+  width: 100%;
+}
+
+.profile__table td {
+  padding-bottom: 10px;
+}
+
+.profile__table td:nth-child(2),
+.profile__table td:nth-child(3) {
+  color: #86898f;
+}
